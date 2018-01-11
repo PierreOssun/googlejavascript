@@ -1,0 +1,99 @@
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 99.6%;
+  font-family:  arial,sans-serif;
+}
+footer {
+  font-size: 13px;
+	display : table-row;
+	height: 50px;
+}
+#center-div
+{ display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.header
+{display: flex;
+  justify-content: flex-end;
+}
+.headerb
+{
+  font-size: 0.8em;
+width: 50px;
+margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color:#414141;
+}
+input{
+  opacity: 0.7;
+}
+
+.connexion
+{
+  border: 3px #4486F8 solid;
+background-color: #4486F8;
+color:white;
+}
+
+#image{
+  margin-bottom: 20px;
+	position: relative;
+}
+
+#barre
+{
+height: 43px;
+  width: 575px;
+  box-shadow: 2px 3px 3px silver;
+}
+
+#RechercheGoogle
+{
+  margin-top: 25px;
+}
+
+#Jaidelachance
+{
+  margin-top: 25px;
+}
+.f1
+{
+border: 3px #E4E4E4 solid;
+background-color: #F2F2F2;
+width:100%;
+border-top-width:1px;
+border-bottom-width: 1px;
+height: 38px;
+}
+.contenerf2{
+	display:flex;
+	justify-content:space-between;
+  border: 3px #E4E4E4 solid;
+  background-color: #F2F2F2;
+  width:100%;
+  border-top-width:1px;
+  border-bottom-width: 1px;
+  height: 38px;
+}
+
+
+button
+{
+	position:absolute;
+	margin-left: 40%;
+	margin-top: 20%;
+	height: 40px;
+	  width: 300px;
+		box-shadow: 2px 3px 3px silver;
+text-align: center;
+}
